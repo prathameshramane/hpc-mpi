@@ -74,3 +74,7 @@ int main(int argc, char **argv)
     MPI_Finalize();
     return 0;
 }
+
+// Output
+// ryder@ryder-VivoBook-15-ASUS-Laptop-X540UAR:~/Projects/HPC/codes$ mpirun -n 3 ./sum_of_n
+// Sum is : 55
